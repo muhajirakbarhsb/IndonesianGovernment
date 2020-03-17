@@ -13,10 +13,10 @@ library(tidyr)
 library(dplyr)
 
 # Ganti Sesuai dengan Key Milik Kita
-consumer_key <- "MqzFk9dsAI3ggptKo3LoEPiXH"
-consumer_secret <- "jDWxBmncET5JSjTczjKTXoSlc6kZgrnLKx1FCZSSUgEViDlZUl"
-access_token <- "108243066-TSTbOb1sZtp3PCv2pvPjgWSlgdxKJh9OKilifwEd"
-access_secret <- "odMTbb9eJgPcTVf9DaubO17nOF351mVPNrcwGp5ZPolPp"
+consumer_key <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+consumer_secret <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+access_token <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+access_secret <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 some_tweets2 = searchTwitter('indonesian government -filter:retweets', n = 12000, lang = "en",retryOnRateLimit = 10e3)
