@@ -13,7 +13,7 @@ library(tidyr)
 library(dplyr)
 
 # Ganti Sesuai dengan Key Milik Kita
-consumer_key <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+consumer_key <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 consumer_secret <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_token <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_secret <- "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
